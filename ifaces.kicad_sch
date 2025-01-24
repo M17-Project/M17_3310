@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "13-12-2024")
+		(date "24-01-2025")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -6119,7 +6119,6 @@
 	)
 	(label "ROW_3"
 		(at 254 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6130,7 +6129,6 @@
 	)
 	(label "ROW_2"
 		(at 254 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6141,7 +6139,6 @@
 	)
 	(label "{KEY_COLS}"
 		(at 259.08 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6152,7 +6149,6 @@
 	)
 	(label "ROW_4"
 		(at 254 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6163,7 +6159,6 @@
 	)
 	(label "COL_3"
 		(at 237.49 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6174,7 +6169,6 @@
 	)
 	(label "ROW_5"
 		(at 254 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6185,7 +6179,6 @@
 	)
 	(label "{KEY_ROWS}"
 		(at 251.46 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6196,7 +6189,6 @@
 	)
 	(label "COL_2"
 		(at 224.79 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6207,7 +6199,6 @@
 	)
 	(label "COL_1"
 		(at 212.09 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6218,7 +6209,6 @@
 	)
 	(label "ROW_1"
 		(at 254 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6230,7 +6220,6 @@
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
 		(at 223.52 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6242,7 +6231,6 @@
 	(hierarchical_label "DISP_D{slash}C"
 		(shape input)
 		(at 142.24 86.36 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6254,7 +6242,6 @@
 	(hierarchical_label "BUZZ"
 		(shape input)
 		(at 67.31 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6266,7 +6253,6 @@
 	(hierarchical_label "UDB_DM"
 		(shape bidirectional)
 		(at 223.52 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6278,7 +6264,6 @@
 	(hierarchical_label "KEY_ROWS"
 		(shape output)
 		(at 234.95 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6290,7 +6275,6 @@
 	(hierarchical_label "BOOT0"
 		(shape output)
 		(at 187.96 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6302,7 +6286,6 @@
 	(hierarchical_label "DISP_SCK"
 		(shape input)
 		(at 147.32 86.36 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6314,7 +6297,6 @@
 	(hierarchical_label "KEY_COLS"
 		(shape input)
 		(at 260.35 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6326,7 +6308,6 @@
 	(hierarchical_label "~{DISP_RST}"
 		(shape input)
 		(at 132.08 86.36 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6338,7 +6319,6 @@
 	(hierarchical_label "5V_USB"
 		(shape output)
 		(at 189.23 24.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6350,7 +6330,6 @@
 	(hierarchical_label "DISP_SDIN"
 		(shape input)
 		(at 144.78 86.36 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6362,7 +6341,6 @@
 	(hierarchical_label "PWM_BLIGHT"
 		(shape input)
 		(at 31.75 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6374,7 +6352,6 @@
 	(hierarchical_label "~{DISP_CE}"
 		(shape input)
 		(at 139.7 86.36 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6386,7 +6363,6 @@
 	(hierarchical_label "VIBR"
 		(shape input)
 		(at 33.02 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10217,7 +10193,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "81-NFZ2MSD102SZ10L"
+		(property "PN" "810-MPZ2012S102AT000"
 			(at 203.2 24.13 0)
 			(effects
 				(font
@@ -10226,7 +10202,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "81-NFZ2MSD102SZ10L"
+		(property "MPN" "810-MPZ2012S102AT000"
 			(at 203.2 24.13 0)
 			(effects
 				(font

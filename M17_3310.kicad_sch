@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "13-12-2024")
+		(date "24-01-2025")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -543,7 +543,6 @@
 	)
 	(label "{KEY_ROWS}"
 		(at 138.43 111.76 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -554,7 +553,6 @@
 	)
 	(label "{KEY_COLS}"
 		(at 140.97 111.76 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
