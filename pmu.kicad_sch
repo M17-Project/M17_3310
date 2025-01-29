@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "24-01-2025")
+		(date "29-01-2025")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -2175,12 +2175,6 @@
 		)
 	)
 	(junction
-		(at 147.32 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f4bd5a0-55d0-421c-9697-5b1cfe3c4418")
-	)
-	(junction
 		(at 74.93 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2377,6 +2371,16 @@
 			(type default)
 		)
 		(uuid "0d703efd-6771-4321-9d1e-68bcc8923c91")
+	)
+	(wire
+		(pts
+			(xy 160.02 91.44) (xy 149.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16388bf4-402d-48e3-844a-f050b41fbb20")
 	)
 	(wire
 		(pts
@@ -2730,7 +2734,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 91.44) (xy 147.32 95.25)
+			(xy 147.32 86.36) (xy 147.32 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2900,16 +2904,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 86.36) (xy 147.32 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5b1b90d-5ab3-4000-8168-d41212bc5a0b")
-	)
-	(wire
-		(pts
 			(xy 83.82 91.44) (xy 86.36 91.44)
 		)
 		(stroke
@@ -2930,13 +2924,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 91.44) (xy 160.02 91.44)
+			(xy 149.86 91.44) (xy 149.86 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c723fea9-ff54-456d-9df7-67edd358f1f6")
+		(uuid "c2bbd280-214f-41fe-8d9f-72ccea567d01")
 	)
 	(wire
 		(pts
@@ -3734,6 +3728,71 @@
 			(project ""
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "590aac4b-5eee-43ca-9563-3981d364055a")
+		(property "Reference" "#PWR070"
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0113f997-9c65-4456-bde1-cce03b00d163")
+		)
+		(instances
+			(project "M17_3310"
+				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
